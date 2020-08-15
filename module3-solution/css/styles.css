@@ -1,0 +1,96 @@
+* {
+     box-sizing: border-box; 
+}
+
+body {
+    font-size: 18px;
+    color:#271763;
+    background-color: #5a97ad;
+    font-family: 'Helvetica', serif;
+    position:relative;
+    text-align:center;
+}
+  
+/** HEADER **/
+#header-nav {
+    background-color: #0e2172f3;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+    height: 70px;
+    font-family: Helvetica, serif;
+}
+.navbar-brand h1 { /* compay name */
+    font-family: Helvetica, serif;
+    color:#6579f7;
+
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:#69e0e0ef;
+    background-color:white;
+}
+#brand {
+    display: block;
+    border:solid 1px black;
+    background-color: #0e2172f3;
+    text-shadow: 1px 1px 1px #222;
+    text-align:left;
+    padding-left:10px;
+    color: #6579f7;
+    height: 70px;
+    text-decoration: none;
+}
+#brand, a:hover {
+    color: #6579f7;
+    text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    color:white;
+}
+.navbar-brand p { 
+    color:black;
+    text-transform: uppercase;
+    font-size: 36px;
+
+}
+.navbar-brand p span { 
+    vertical-align: middle;
+}
+/* END HEADER navbar */
+
+
+#title {
+    display:block;
+    margin-bottom:25px;
+    font-weight: bold;
+}
+section {
+    background-color:#1d8696;  
+    margin-bottom:15px;
+    border:solid 1px black;
+    
+}
+section p{
+  clear:both;
+  color:#d5d0f5;
+}
+
+section span {
+    font-size:1.5em;
+    color: #3b248f;
+    margin-bottom:25px;  
+    line-height: 75px;
+    font-weight: bold;
+}
+ 
